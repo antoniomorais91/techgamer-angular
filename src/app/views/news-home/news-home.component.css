@@ -1,0 +1,42 @@
+@media screen and (max-width: 860px) {
+  .news-item {
+      flex-direction: column;
+  }
+}
+
+.img-news {
+  min-width: 320px;
+  width: 36vw;
+  padding-bottom: 2%;
+}
+
+@media screen and (min-width: 1600px) {
+  .img-news {
+      width: 34vw;
+  }
+}
+
+.text-news {
+  width: 530px;
+}
+
+@media screen and (min-width: 1600px) {
+  .text-news {
+      width: 700px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text-news {
+      width: 80vw;
+  }
+}
+
+.text-news h6 {
+  color: #BCD955;
+  filter: drop-shadow(3px 4px 4px rgba(255, 255, 255, 0.25));
+}
+
+.text-news p {
+  color: #fff;
+}

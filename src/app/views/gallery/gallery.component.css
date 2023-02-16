@@ -1,0 +1,9 @@
+/* Gallery */
+
+.images-wrapper {
+  display: grid;
+  -ms-grid-columns: (minmax(180px, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  min-height: 50vh;
+  grid-gap: 4rem;
+}

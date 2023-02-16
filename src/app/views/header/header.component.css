@@ -1,0 +1,158 @@
+.address {
+  padding-top: 10px;
+  padding-left: 29vw;
+}
+
+.top fa-icon {
+  color: #bcd955;
+  transition: all 0.3s ease-in-out;
+}
+
+.top fa-icon:hover {
+  color: #79d0f2;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 1500px) {
+  .address {
+    padding-left: 33vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .address {
+    padding-left: 16vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .address {
+    padding-left: 8vw;
+  }
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #1e6490;
+}
+
+.logo {
+  text-decoration: none;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(2px 4px 4px #000000);
+}
+
+.logo h3 {
+  padding-top: 10px;
+  font-family: Nunito;
+  font-weight: bold;
+  color: #bcd955;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logoimg {
+  width: 70px;
+}
+
+.search {
+  width: 600px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 14px;
+  border: 0;
+  margin: 0 40px 0 40px;
+}
+
+form {
+  filter: drop-shadow(2px 4px 4px #000000);
+}
+
+form a {
+  color: #bcd955;
+  transition: all 0.3s ease-in-out;
+}
+
+form a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #bcd955;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(2px 4px 4px #000000);
+  font-weight: bolder;
+}
+
+
+.services:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.navbar .nav-item {
+  padding: 0px 2px 0px 2px;
+  margin: 2px 4px 2px 4px;
+  border-radius: 10px;
+  background-color: #2A1C44;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  filter: drop-shadow(1px 2px 2px #000000);
+}
+
+.navbar .nav-item:hover {
+  background-color: #bcd955;
+  transform: scale(1.1);
+}
+
+.navbar .nav-link {
+  color: #bcd955;
+}
+
+.navbar .nav-link:focus {
+  color: #1E6490;
+}
+
+.navbar .nav-link.active {
+  color: #79D0F2;
+}
+
+.navbar .nav-link:hover {
+  color: #1E6490;
+}
+
+.nav-item .dropdown-menu {
+  background-color: #bcd955;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.nav-item .dropdown-item:hover {
+  background-color: #2A1C44;
+  color: #bcd955;
+  filter: drop-shadow(1px 2px 2px #000000);
+}
+
+.nav-item .dropdown-item.active{
+  background-color: #2A1C44;
+  color: #79D0F2;
+}

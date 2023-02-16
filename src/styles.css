@@ -1,0 +1,273 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Import Nunito Font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap');
+
+/* Import Bootstrap*/
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* Import Animate CSS*/
+@import "~animate.css/animate.css";
+
+/* Import LightBox */
+@import '~@angular/cdk/overlay-prebuilt.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+p {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #79d0f2;
+  transition: all 0.3s ease-in-out;
+}
+
+.logoimg {
+  width: 70px;
+}
+
+@media screen and (min-width: 1600px){
+  .logoimg {
+      width: 6vw;
+  }
+}
+
+a:hover {
+  color: #bcd955;
+}
+
+.text-banner {
+  font-family: Nunito;
+  font-weight: 800;
+  text-align: center;
+  filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #2A1C44;
+}
+
+.text-banner2 {
+  font-family: Nunito;
+  font-weight: 800;
+  text-align: center;
+  filter: drop-shadow(3px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #2A1C44;
+  margin-left: 280px;
+}
+
+.btn-purple {
+  width: 200px;
+  padding: 8px;
+  margin: 4px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #2A1C44;
+  color: #bcd955;
+  font-family: Nunito;
+  font-weight: Bold;
+  filter: drop-shadow(1px 2px 2px #000000);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-purple:hover {
+  background-color: #bcd955;
+  color: #2A1C44;
+  transform: scale(1.1);
+}
+
+.title {
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.title-primary {
+  font-family: Nunito;
+  font-weight: bold;
+  filter: drop-shadow(3px 4px 4px rgba(255, 255, 255, 0.25));
+
+}
+
+/* Animated Icons */
+
+.anim-icon {
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.anim-icon .icon {
+  position: absolute;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.anim-icon .icon-1 {
+  background: url(/assets/img/teclado1.png);
+  width: 400px;
+  height: 58px;
+  left: -10px;
+  top: 630px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(0.8);
+}
+
+@media screen and (min-width: 1600px) {
+  .anim-icon .icon-1 {
+      left: 100px;
+      top: 860px;
+      transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .anim-icon .icon-1 {
+      left: -20px;
+      top: 834px;
+      transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 1236px) {
+  .anim-icon .icon-1 {
+      display: none;
+  }
+}
+
+.anim-icon .icon-2 {
+  background: url(/assets/img/monitor1.png);
+  width: 500px;
+  height: 408px;
+  right: -80px;
+  top: 450px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(0.5);
+}
+
+@media screen and (min-width: 1600px) {
+  .anim-icon .icon-2 {
+      right: -20px;
+      top: 700px;
+      transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .anim-icon .icon-2 {
+      right: -80px;
+      top: 680px;
+      transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 1236px) {
+  .anim-icon .icon-2 {
+      display: none;
+  }
+}
+
+.anim-icon .icon-3 {
+  background: url(/assets/img/monitor3.png);
+  width: 500px;
+  height: 409px;
+  left: -80px;
+  top: 1150px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(0.5);
+}
+
+@media screen and (min-width: 1600px) {
+  .anim-icon .icon-3 {
+      left: 40px;
+      top: 1520px;
+      transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .anim-icon .icon-3 {
+      left: -70px;
+      top: 1410px;
+      transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 1236px) {
+  .anim-icon .icon-3 {
+      display: none;
+  }
+}
+
+.anim-icon .icon-4 {
+  background: url(/assets/img/monitor2.png);
+  width: 500px;
+  height: 324px;
+  right: -80px;
+  top: 1450px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(0.4);
+}
+
+@media screen and (min-width: 1600px) {
+  .anim-icon .icon-4 {
+      right: 0px;
+      top: 1740px;
+      transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .anim-icon .icon-4 {
+      right: -120px;
+      top: 1660px;
+      transform: scale(0.4);
+  }
+}
+
+@media screen and (max-width: 1236px) {
+  .anim-icon .icon-4 {
+      display: none;
+  }
+}
+
+.anim-icon .icon-5 {
+  background: url(/assets/img/cadeira1.png);
+  width: 500px;
+  height: 350px;
+  right: -80px;
+  top: 1648px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transform: scale(0.4);
+}
+
+@media screen and (min-width: 1600px) {
+  .anim-icon .icon-5 {
+      right: 0px;
+      top: 1980px;
+      transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .anim-icon .icon-5 {
+      right: -120px;
+      top: 1940px;
+      transform: scale(0.4);
+  }
+}
+
+@media screen and (max-width: 1236px) {
+  .anim-icon .icon-5 {
+      display: none;
+  }
+}
+

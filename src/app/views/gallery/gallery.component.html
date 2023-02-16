@@ -1,0 +1,7 @@
+<div class="container-fluid bg-black p-4 d-flex flex-column align-items-center">
+	<div class="container-fluid images-wrapper" gallerize>
+		<img *ngFor="let img of imageData" [src]="img.previewUrl"
+       [attr.imageSrc]="img.srcUrl"
+       [attr.thumbSrc]="img.previewUrl">
+	</div>
+</div>

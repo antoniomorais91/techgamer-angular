@@ -1,0 +1,101 @@
+<!--Top-->
+<div
+  class="top container-fluid bg-black d-flex align-self-center justify-content-between"
+>
+  <div class="address">
+    <a
+      class=""
+      href="https://www.google.com/maps/place/Rua+Maria+Lu%C3%ADsa+do+Val+Penteado+-+Cidade+S%C3%A3o+Mateus,+S%C3%A3o+Paulo+-+SP,+03962-040/@-23.6080206,-46.4849595,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce67d5d61891c1:0x4d350796728b73b4!8m2!3d-23.6080206!4d-46.4827708"
+      target="_blank"
+    >
+      <p class="text-center">
+        Rua Maria Luísa do Val Penteado, Cidade São Mateus - São Paulo - SP -
+        CEP 03962040 | Central de Atendimento
+      </p>
+    </a>
+  </div>
+  <div class="p-1 pt-2">
+    <a href="#"><fa-icon class="p-1" [icon]="faFacebook"></fa-icon></a>
+    <a href="#"><fa-icon class="p-1" [icon]="faInstagram"></fa-icon></a>
+    <a href="#"><fa-icon class="p-1" [icon]="faWhatsapp"></fa-icon></a>
+    <a href="#"><fa-icon class="p-1" [icon]="faEnvelope"></fa-icon></a>
+  </div>
+</div>
+
+<!--Head-->
+
+<div class="head container-fluid pt-4">
+  <a class="logo px-2" href="#">
+    <img class="logoimg mx-1" src="/assets/img/icons/console_green.png" />
+    <h3 class="px-1">TECH GAMER</h3>
+  </a>
+  <form class="input-search d-flex align-items-center" role="search">
+    <input
+      class="search bg-black me-2 border-0 text-center text-primary"
+      type="search"
+      placeholder="Digite aqui sua pesquisa"
+      aria-label="Pesquisa"
+    />
+    <a href="#"><fa-icon class="p-1 fa-xl" [icon]="faMagnifyingGlass"></fa-icon></a>
+  </form>
+  <a class="services px-3" routerLink="/login">
+    <fa-icon class="p-1 fa-xl" [icon]="faUser"></fa-icon>
+    <p style="margin-top: 14px">Minha Conta</p>
+  </a>
+  <a class="services px-3" href="#">
+    <fa-icon class="p-1 fa-xl" [icon]="faCartShopping"></fa-icon>
+    <p style="margin-top: 14px">Carrinho</p>
+  </a>
+  <div class="container-fluid py-2 d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg justify-content-center align-items-center">
+      <div class="container-fluid">
+          <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" routerLink="/">Início</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Lançamentos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Pc Gamer</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Desktop</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Hardware</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Periféricos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                          Loja
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item active" href="#">Lançamentos</a></li>
+                          <li><a class="dropdown-item" href="#">Games</a></li>
+                          <li><a class="dropdown-item" href="#">PC's</a></li>
+                          <li>
+                              <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Hardware</a></li>
+                          <li><a class="dropdown-item" href="#">Periféricos</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Notícias</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  </div>
+</div>
