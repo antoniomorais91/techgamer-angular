@@ -5,6 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -18,4 +19,10 @@ export class LoginComponent {
   faInstagram = faInstagram;
   faWhatsapp = faWhatsapp;
   faEnvelope = faEnvelope;
+
+  mudarlogin() {
+    document.getElementById("section-signIn").style.display = "none";
+    document.getElementById("section-signUp").style.display = "initial";
+  }
+
 }

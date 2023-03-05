@@ -23,7 +23,7 @@
 </div>
 <div class="container-fluid bg-secondary" style="height: 100vh;">
 
-<section id="section-login">
+<div id="section-signIn">
   <div class="container-fluid p-5 d-flex flex-column align-items-center justify-content-center">
       <form method="post" action="" id="login"
           class="d-flex flex-column justify-content-center align-items-center">
@@ -31,12 +31,12 @@
               <img class="logoimg img-fluid mx-3" src="assets/img/icons/console_green.png">
               <h3 class="title text-success px-1 pt-2">TECH GAMER</h3>
           </a>
-          <div class="form-control pt-0 m-0">
+          <div class="form-group pt-0 m-0">
               <label for="username">Usuário</label>
               <input name="name" type="text" placeholder="E-mail ou Telefone"
                   id="username" required><fa-icon [icon]="faExclamationCircle"></fa-icon><fa-icon [icon]="faCheckCircle"></fa-icon><small>Por favor insira o login.</small>
           </div>
-          <div class="form-control pt-0 m-0">
+          <div class="form-group pt-0 m-0">
               <label for="password">Senha</label>
               <input name="pass" type="password" placeholder="Senha" id="password"
                   required><fa-icon [icon]="faExclamationCircle"></fa-icon><fa-icon [icon]="faCheckCircle"></fa-icon><small>Por favor insira a senha.</small>
@@ -45,42 +45,42 @@
 
           <input type="button" class="btn-purple" id="btn-login" value="Entrar">
 
-          <input type="button" class="btn-purple" id="btn-sign" value="Cadastre-se">
+          <input type="button" (click)="mudarlogin()" class="btn-purple" id="btn-signup" value="Cadastre-se">
 
       </form>
   </div>
-</section>
+</div>
 
-<section id="section-sign">
+<div id="section-signUp">
   <div class="container-fluid p-5 d-flex flex-column align-items-center justify-content-center">
-      <form method="post" action="" id="sign"
+      <form class="sign" method="post" action="" id="signup"
           class="d-flex flex-column justify-content-center align-items-center">
           <a class="logo d-flex flex-column align-items-center" routerLink="/">
               <img class="logoimg img-fluid mx-3" src="assets/img/icons/console_green.png">
               <h3 class="title text-success px-1 pt-2">TECH GAMER</h3>
           </a>
-          <div class="form-control pt-0 m-0">
+          <div class="form-group pt-0 m-0">
               <label for="username">Usuário</label>
               <input name="username" type="text" placeholder="ex. nome de usuario" id="username"
                   required>
                   <fa-icon [icon]="faExclamationCircle"></fa-icon><fa-icon [icon]="faCheckCircle"></fa-icon><small>Por favor insira o login.</small>
           </div>
-          <div class="form-control pt-0 m-0">
+          <div class="form-group pt-0 m-0">
               <label for="email">E-mail</label>
               <input name="email" type="email" placeholder="seu@email.com.br" id="email"
                   required>
               <fa-icon [icon]="faExclamationCircle"></fa-icon><fa-icon [icon]="faCheckCircle"></fa-icon><small>Por favor insira a senha.</small>
           </div>
-          <div class="form-control pt-0 m-0">
+          <div class="form-group pt-0 m-0">
               <label for="password">Senha</label>
               <input name="password" type="password" placeholder="mínimo de 6 caracteres"
                   id="password" required>
               <fa-icon [icon]="faExclamationCircle"></fa-icon><fa-icon [icon]="faCheckCircle"></fa-icon><small>Por favor insira a confirmação de.</small>
           </div>
 
-          <input type="button" value="Cadastrar" class="btn-purple" id="btn-login" onclick="signIn()">
+          <input type="button" value="Cadastrar" class="btn-purple" id="btn-signup" onclick="signIn()">
       </form>
   </div>
-</section>
+</div>
 
 </div>

@@ -33,3 +33,10 @@
   object-fit: cover;
   cursor: grab;
 }
+
+@media screen and (max-width: 700px) {
+  .swiper-slide img {
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+}

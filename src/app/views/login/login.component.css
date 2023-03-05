@@ -43,21 +43,21 @@
 
 }
 
-#section-login {
+#section-signIn {
   display: initial;
 }
 
-#section-sign {
+#section-signUp {
   display: none;
 }
 
 form {
-  height: 580px;
+  height: 620px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 52%;
+  top: 56%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -79,17 +79,17 @@ form * {
   }
 }
 
-.form-control {
+.form-group {
   background-color: rgba(255, 255, 255, 0.0);
   border: none;
 }
 
-.form-control i {
+.form-group i {
   position: absolute;
   visibility: hidden;
 }
 
-.form-control small {
+.form-group small {
   position: absolute;
   margin-top: 2px;
   margin-left: 30px;
@@ -97,30 +97,30 @@ form * {
 }
 
 
-.form-control.success input {
+.form-group.success input {
   border-color: #bcd955;
 }
 
-.form-control.error input {
+.form-group.error input {
   border-color: #2A1C44;
 }
 
-.form-control.success i.fa-check-circle {
+.form-group.success fa-icon {
   color: #bcd955;
   visibility: visible;
 }
 
-.form-control.error i.fa-exclamation-circle {
+.form-group.error fa-icon {
   color: #2A1C44;
   visibility: visible;
 }
 
-.form-control.success small {
+.form-group.success small {
   color: #bcd955;
   visibility: visible;
 }
 
-.form-control.error small {
+.form-group.error small {
   color: #2A1C44;
   visibility: visible;
 }

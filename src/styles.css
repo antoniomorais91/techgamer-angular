@@ -56,6 +56,12 @@ a:hover {
   margin-left: 280px;
 }
 
+@media screen and (max-width: 1320px) {
+  .text-banner2 {
+    margin-left: 0;
+  }
+}
+
 .btn-purple {
   width: 200px;
   padding: 8px;
@@ -111,7 +117,7 @@ a:hover {
   width: 400px;
   height: 58px;
   left: -10px;
-  top: 630px;
+  top: 640px;
   background-repeat: no-repeat;
   z-index: 1;
   transform: scale(0.8);
@@ -120,7 +126,7 @@ a:hover {
 @media screen and (min-width: 1600px) {
   .anim-icon .icon-1 {
       left: 100px;
-      top: 860px;
+      top: 845px;
       transform: scale(1);
   }
 }
@@ -144,7 +150,7 @@ a:hover {
   width: 500px;
   height: 408px;
   right: -80px;
-  top: 450px;
+  top: 470px;
   background-repeat: no-repeat;
   z-index: 1;
   transform: scale(0.5);
@@ -153,8 +159,8 @@ a:hover {
 @media screen and (min-width: 1600px) {
   .anim-icon .icon-2 {
       right: -20px;
-      top: 700px;
-      transform: scale(0.6);
+      top: 670px;
+      transform: scale(0.55);
   }
 }
 
@@ -177,7 +183,7 @@ a:hover {
   width: 500px;
   height: 409px;
   left: -80px;
-  top: 1150px;
+  top: 1170px;
   background-repeat: no-repeat;
   z-index: 1;
   transform: scale(0.5);
@@ -185,8 +191,8 @@ a:hover {
 
 @media screen and (min-width: 1600px) {
   .anim-icon .icon-3 {
-      left: 40px;
-      top: 1520px;
+      left: 20px;
+      top: 1410px;
       transform: scale(0.6);
   }
 }
@@ -210,7 +216,7 @@ a:hover {
   width: 500px;
   height: 324px;
   right: -80px;
-  top: 1450px;
+  top: 1469px;
   background-repeat: no-repeat;
   z-index: 1;
   transform: scale(0.4);
@@ -219,7 +225,7 @@ a:hover {
 @media screen and (min-width: 1600px) {
   .anim-icon .icon-4 {
       right: 0px;
-      top: 1740px;
+      top: 1720px;
       transform: scale(0.6);
   }
 }
@@ -243,7 +249,7 @@ a:hover {
   width: 500px;
   height: 350px;
   right: -80px;
-  top: 1648px;
+  top: 1667px;
   background-repeat: no-repeat;
   z-index: 1;
   transform: scale(0.4);
@@ -252,7 +258,7 @@ a:hover {
 @media screen and (min-width: 1600px) {
   .anim-icon .icon-5 {
       right: 0px;
-      top: 1980px;
+      top: 1966px;
       transform: scale(0.6);
   }
 }

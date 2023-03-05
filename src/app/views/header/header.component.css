@@ -70,6 +70,35 @@
   margin: 0 40px 0 40px;
 }
 
+@media screen and (min-width: 1600px) {
+    .search {
+        width: 46vw;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .input-search {
+        padding-bottom: 10px;
+        margin-top: 2%;
+    }
+
+    .search {
+        width: 60vw;
+        margin-left: 14%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .input-search {
+      margin-top: 4%;
+      margin-left: -2%;
+  }
+    .search {
+        width: 80vw;
+    }
+}
+
 form {
   filter: drop-shadow(2px 4px 4px #000000);
 }
@@ -98,6 +127,27 @@ form a:hover {
 .services:hover {
   color: #fff;
   transform: scale(1.1);
+}
+
+@media screen and (min-width: 1600px) {
+  .services {
+      margin-left: 5vw;
+      transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .services {
+      margin-left: 3vw;
+      transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .services {
+    margin-left: 10px;
+    transform: scale(1);
+}
 }
 
 .navbar {
